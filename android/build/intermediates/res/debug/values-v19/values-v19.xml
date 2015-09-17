@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Users/Zephyr/Downloads/pebblekit-android-example-master/pebblekit-android-example-master/android/Android%20Studio/android/src/main/res/values-v19/styles.xml -->
+    <eat-comment/>
+    <style name="KitKatTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/actionbar_orange"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    tools:context="com.jzheadley.CashPointer.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/install_watchapp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_install"
+            android:textColor="#AAAAAA"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_install"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/install_watchapp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/actionbar_orange"
+            android:text="@string/install_pebble"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/press_a_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/button_install"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/button_press"
+            android:textColor="#AAAAAA"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/which_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/press_a_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/button_recieved"
+            android:textColor="#AAAAAA"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/trigger_vibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/which_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_vibrate"
+            android:textColor="#AAAAAA"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_vibrate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/trigger_vibrate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/actionbar_orange"
+            android:text="@string/vibrate"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/debug_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/button_vibrate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_debug"
+            android:textColor="#AAAAAA"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button_debug"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/debug_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/actionbar_orange"
+            android:text="@string/debug"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+</LinearLayout>
