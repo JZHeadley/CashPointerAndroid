@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Users\Zephyr\Downloads\pebblekit-android-example-master\pebblekit-android-example-master\android\Android Studio\android\build\intermediates\exploded-aar\com.getpebble\pebblekit\3.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="bd72bf60a6e56573eecb0e6abf419fac2b1fc1e6">
+        <dex dex="D:\Users\Zephyr\Downloads\pebblekit-android-example-master\pebblekit-android-example-master\android\Android Studio\android\build\intermediates\pre-dexed\debug\classes-acf4e2901034109427723023097d1c77741e8e48.jar" />
+    </item>
+
+</items>
