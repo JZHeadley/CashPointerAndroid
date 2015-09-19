@@ -1,5 +1,11 @@
 package com.jzheadley.CashPointer;
 
+import java.util.UUID;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.app.Activity;
 import android.location.Location;
 import android.os.AsyncTask;
@@ -9,31 +15,26 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.getpebble.android.kit.PebbleKit;
 import com.getpebble.android.kit.util.PebbleDictionary;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.UUID;
-
 public class DebugActivity extends Activity {
 	private static final int KEY_DISTANCE = 2;
 	private static final int KEY_ETA = 3;
+	private static final int KEY_BERING = 4;
+	private static final double AVERAGE_WALK_SPEED = 3.5;
+	// private static final UUID WATCHAPP_UUID =
+	// UUID.fromString("d82c6b67-68a6-4edd-93c3-ffeb5229acb6");
+	private static final UUID WATCHAPP_UUID = UUID.fromString("5ec1ba20-9b7f-4bbf-af47-6818a16e1a30");
+	private final String RAD = "50";
+	private final String KEY = "&key=b26f736120f2ea2718bb3f280a7d1cf9";
 	private GPSTracker gps;
 	private Location location;
 	private Location nearestATM;
 	private TextView latitudeField;
 	private TextView longitudeField;
-	private static final double AVERAGE_WALK_SPEED = 3.5;
-	private final String RAD = "50";
-	private final String KEY = "&key=b26f736120f2ea2718bb3f280a7d1cf9";
-	//private static final UUID WATCHAPP_UUID = UUID.fromString("d82c6b67-68a6-4edd-93c3-ffeb5229acb6");
-    private static final UUID WATCHAPP_UUID = UUID.fromString("5ec1ba20-9b7f-4bbf-af47-6818a16e1a30");
-    private double curLat;
+	private double curLat;
 	private double curLong;
 
 	@Override
@@ -53,27 +54,37 @@ public class DebugActivity extends Activity {
 				+ RAD + KEY;
 		new ProcessJSON(location).execute(url);
 
-        // Add Install Button behavior
-        Button distanceButton = (Button) findViewById(R.id.distance_button);
-        distanceButton.setOnClickListener(new View.OnClickListener() {
+		// Add Install Button behavior
+		Button distanceButton = (Button) findViewById(R.id.distance_button);
+		distanceButton.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				PebbleDictionary out = new PebbleDictionary();
+				float distance = location.distanceTo(nearestATM);
+				out.addInt32(KEY_DISTANCE, Math.round(distance));
+				PebbleKit.sendDataToPebble(getApplicationContext(), WATCHAPP_UUID, out);
+			}
+		});
+		// Add Install Button behavior
+		Button eta_button = (Button) findViewById(R.id.eta_button);
+		eta_button.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				PebbleDictionary out = new PebbleDictionary();
+				float distance = location.distanceTo(nearestATM);
+				double ETA = (distance * 0.00062137) / AVERAGE_WALK_SPEED;
+				out.addInt32(KEY_ETA, (int) ETA);
+				PebbleKit.sendDataToPebble(getApplicationContext(), WATCHAPP_UUID, out);
+			}
+		});
+		// Add Bering Button behavior
+		Button bearing_button = (Button) findViewById(R.id.bearing_button);
+		bearing_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 PebbleDictionary out = new PebbleDictionary();
-                float distance = location.distanceTo(nearestATM);
-                out.addInt32(KEY_DISTANCE, (int) Math.round(distance));
-                PebbleKit.sendDataToPebble(getApplicationContext(), WATCHAPP_UUID, out);
-            }
-        });
-        // Add Install Button behavior
-        Button eta_button = (Button) findViewById(R.id.eta_button);
-        eta_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                PebbleDictionary out = new PebbleDictionary();
-                float distance = location.distanceTo(nearestATM);
-                double ETA = (distance * 0.00062137) / AVERAGE_WALK_SPEED;
-                out.addInt32(KEY_ETA, (int) ETA);
-                PebbleKit.sendDataToPebble(getApplicationContext(), WATCHAPP_UUID, out);
+				double bearing = location.bearingTo(nearestATM);
+				out.addUint32(KEY_BERING, (int) (bearing * 1000));
             }
         });
 	}
@@ -109,7 +120,7 @@ public class DebugActivity extends Activity {
 		}
 
 		protected String doInBackground(String... strings) {
-			String stream = null;
+			String stream;
 			String urlString = strings[0];
 
 			HTTPDataHandler dataHandler = new HTTPDataHandler();

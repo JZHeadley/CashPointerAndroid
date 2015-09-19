@@ -7,6 +7,10 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
@@ -27,24 +31,20 @@ import com.getpebble.android.kit.PebbleKit;
 import com.getpebble.android.kit.PebbleKit.PebbleDataReceiver;
 import com.getpebble.android.kit.util.PebbleDictionary;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 public class MainActivity extends Activity {
 	private static final UUID WATCHAPP_UUID = UUID.fromString("5ec1ba20-9b7f-4bbf-af47-6818a16e1a30");
 	// private static final UUID WATCHAPP_UUID =
 	// UUID.fromString("d82c6b67-68a6-4edd-93c3-ffeb5229acb6");
 	private static final String WATCHAPP_FILENAME = "CashPointer.pbw";
 	private static final double AVERAGE_WALK_SPEED = 3.5;
-	private GPSTracker gps;
-	private String url;
 	private static final int RAD = 50;
 	private static final String KEY = "b26f736120f2ea2718bb3f280a7d1cf9";
+	private static final int KEY_BUTTON = 0, KEY_VIBRATE = 1, BUTTON_UP = 0, BUTTON_SELECT = 1, BUTTON_DOWN = 2,
+			KEY_DISTANCE = 2, KEY_ETA = 3, KEY_BERING = 4;
+	private GPSTracker gps;
+	private String url;
 	private Location location;
 	private Location nearestATM;
-	private static final int KEY_BUTTON = 0, KEY_VIBRATE = 1, BUTTON_UP = 0, BUTTON_SELECT = 1, BUTTON_DOWN = 2,
-			KEY_DISTANCE = 2, KEY_ETA = 3;
 	private Handler handler = new Handler();
 	private PebbleDataReceiver appMessageReciever;
 	private TextView whichButtonView;
@@ -56,9 +56,10 @@ public class MainActivity extends Activity {
 		gps = new GPSTracker(this);
 		// Customize ActionBar
 		ActionBar actionBar = getActionBar();
-		if (!(actionBar.equals(null)))
+		if (!(actionBar == null)) {
 			actionBar.setTitle("CashPointer");
-		actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.actionbar_orange)));
+			actionBar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.actionbar_orange)));
+		}
 		location = gps.getLocation();
 		url = "http://api.reimaginebanking.com/atms?" + "lat=" + gps.getLatitude() + "&" + "lng=" + gps.getLongitude()
 				+ "&" + "rad=" + RAD + "&key=" + KEY;
@@ -191,7 +192,7 @@ public class MainActivity extends Activity {
 		}
 
 		protected String doInBackground(String... strings) {
-			String stream = null;
+			String stream;
 			String urlString = strings[0];
 			HTTPDataHandler dataHandler = new HTTPDataHandler();
 			stream = dataHandler.GetHTTPData(urlString);

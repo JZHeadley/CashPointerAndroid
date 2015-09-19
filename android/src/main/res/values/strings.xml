@@ -20,5 +20,6 @@
     <string name="title_activity_debug">Debug</string>
     <string name="send_distance">Send Distance</string>
     <string name="send_ETA">Send ETA</string>
+    <string name="send_bearing">Send Bearing</string>
 
 </resources>

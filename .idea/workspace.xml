@@ -13,11 +13,20 @@
     <bookmark url="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml" line="13" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5106776a-482e-4fc9-be2f-b27d42e8cc40" name="Default" comment="Merge branch 'master' of https://github.com/JZHeadley/CashPointerAndroid&#10;&#10;Conflicts:&#10;&#9;local.properties&#10;">
+    <list default="true" id="5106776a-482e-4fc9-be2f-b27d42e8cc40" name="Default" comment="added ability to send bering">
+      <change type="DELETED" beforePath="D:\Users\Zephyr\Downloads\pebblekit-android-example-master\pebblekit-android-example-master\android\Android Studio\.idea\libraries\pebblekit_3_0_0.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java" afterPath="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml" afterPath="$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Android Studio.iws" />
@@ -46,11 +55,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="208" column="20" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,14 +77,34 @@
       </file>
       <file leaf-file-name="activity_debug.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.51724">
+              <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
+              <folding>
+                <element signature="e#316#349#0" expanded="true" />
+                <element signature="e#384#419#0" expanded="true" />
+                <element signature="e#455#490#0" expanded="true" />
+                <element signature="e#524#557#0" expanded="true" />
+                <element signature="e#1001#1019#0" expanded="true" />
+                <element signature="e#1049#1073#0" expanded="true" />
+                <element signature="e#1268#1292#0" expanded="true" />
+                <element signature="e#1646#1665#0" expanded="true" />
+                <element signature="e#1695#1719#0" expanded="true" />
+                <element signature="e#1915#1939#0" expanded="true" />
+                <element signature="e#2374#2396#0" expanded="true" />
+                <element signature="e#2426#2450#0" expanded="true" />
+                <element signature="e#2644#2668#0" expanded="true" />
+                <element signature="e#3022#3045#0" expanded="true" />
+                <element signature="e#3075#3099#0" expanded="true" />
+                <element signature="e#3294#3318#0" expanded="true" />
+                <element signature="e#3665#3688#0" expanded="true" />
+                <element signature="e#3901#3919#0" expanded="true" />
+                <element signature="e#4265#4287#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -73,9 +112,14 @@
         <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="133" column="62" selection-start-line="133" selection-start-column="62" selection-end-line="133" selection-end-column="62" />
+              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2043#2362#0" expanded="true" />
+                <element signature="e#2361#2362#0" expanded="true" />
+                <element signature="e#2492#2858#0" expanded="true" />
+                <element signature="e#2857#2858#0" expanded="true" />
+                <element signature="e#2999#3286#0" expanded="true" />
+                <element signature="e#3285#3286#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,15 +132,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5474061">
+            <state vertical-scroll-proportion="0.0">
               <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding>
-                <element signature="e#882#900#0" expanded="true" />
-                <element signature="e#1053#1071#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,15 +147,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3577#3578#0" expanded="false" />
-                <element signature="e#3610#3611#0" expanded="false" />
-                <element signature="e#4487#4488#0" expanded="false" />
-                <element signature="e#4513#4514#0" expanded="false" />
-                <element signature="e#4910#4911#0" expanded="false" />
-                <element signature="e#4928#4929#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,14 +176,14 @@
       </file>
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1591,12 +1624,20 @@
         <option value="$PROJECT_DIR$/android/src/main/java/com/getpebble/pebblekitexample/MainActivity.java" />
         <option value="$PROJECT_DIR$/android/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/android/build/generated/source/r/debug/com/jzheadley/CashPointer/R.java" />
-        <option value="$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java" />
         <option value="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/GPSTracker.java" />
-        <option value="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java" />
         <option value="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml" />
+        <option value="$PROJECT_DIR$/local.properties" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java" />
+        <option value="$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1631,86 +1672,54 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
+        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            <PATH_ELEMENT USER_OBJECT="android">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+        <subPane subId="Default">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Android Studio">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mipmap" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ic_launcher.png" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android Studio" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Android Studio">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1815,59 +1824,41 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android Studio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="android">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Android Studio">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Android Studio">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android Studio" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android Studio" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2151,15 +2142,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21104388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2177,7 +2169,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2197,30 +2188,46 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="icon change" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JZHeadley/CashPointerAndroid&#10;&#10;Conflicts:&#10;&#9;local.properties&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/JZHeadley/CashPointerAndroid&#10;&#10;Conflicts:&#10;&#9;local.properties&#10;" />
+    <MESSAGE value="added ability to send bering" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ability to send bering" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="20" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2228,7 +2235,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2237,15 +2249,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3577#3578#0" expanded="false" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#4487#4488#0" expanded="false" />
-            <element signature="e#4513#4514#0" expanded="false" />
-            <element signature="e#4910#4911#0" expanded="false" />
-            <element signature="e#4928#4929#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2268,14 +2272,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2287,14 +2291,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2302,7 +2326,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2311,15 +2340,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3577#3578#0" expanded="false" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#4487#4488#0" expanded="false" />
-            <element signature="e#4513#4514#0" expanded="false" />
-            <element signature="e#4910#4911#0" expanded="false" />
-            <element signature="e#4928#4929#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2342,14 +2363,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2361,14 +2382,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2376,20 +2417,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2401,14 +2447,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2416,20 +2482,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2441,14 +2512,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2456,20 +2547,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2481,14 +2577,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2496,20 +2612,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2521,14 +2642,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
@@ -2536,20 +2677,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
@@ -2561,14 +2707,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/assets/android-example.pbw">
@@ -2617,25 +2763,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="29" selection-start-line="100" selection-start-column="29" selection-end-line="100" selection-end-column="29" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="37" selection-start-line="105" selection-start-column="37" selection-end-line="105" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/HTTPDataHandler.java">
@@ -2660,33 +2795,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3577#3578#0" expanded="false" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#4487#4488#0" expanded="false" />
-            <element signature="e#4513#4514#0" expanded="false" />
-            <element signature="e#4910#4911#0" expanded="false" />
-            <element signature="e#4928#4929#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="208" column="20" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="133" column="62" selection-start-line="133" selection-start-column="62" selection-end-line="133" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2697,12 +2806,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5474061">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/res/layout/activity_debug.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.51724">
+          <caret line="125" column="26" selection-start-line="125" selection-start-column="26" selection-end-line="125" selection-end-column="26" />
           <folding>
-            <element signature="e#882#900#0" expanded="true" />
-            <element signature="e#1053#1071#0" expanded="true" />
+            <element signature="e#316#349#0" expanded="true" />
+            <element signature="e#384#419#0" expanded="true" />
+            <element signature="e#455#490#0" expanded="true" />
+            <element signature="e#524#557#0" expanded="true" />
+            <element signature="e#1001#1019#0" expanded="true" />
+            <element signature="e#1049#1073#0" expanded="true" />
+            <element signature="e#1268#1292#0" expanded="true" />
+            <element signature="e#1646#1665#0" expanded="true" />
+            <element signature="e#1695#1719#0" expanded="true" />
+            <element signature="e#1915#1939#0" expanded="true" />
+            <element signature="e#2374#2396#0" expanded="true" />
+            <element signature="e#2426#2450#0" expanded="true" />
+            <element signature="e#2644#2668#0" expanded="true" />
+            <element signature="e#3022#3045#0" expanded="true" />
+            <element signature="e#3075#3099#0" expanded="true" />
+            <element signature="e#3294#3318#0" expanded="true" />
+            <element signature="e#3665#3688#0" expanded="true" />
+            <element signature="e#3901#3919#0" expanded="true" />
+            <element signature="e#4265#4287#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/DebugActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+          <folding>
+            <element signature="e#2043#2362#0" expanded="true" />
+            <element signature="e#2361#2362#0" expanded="true" />
+            <element signature="e#2492#2858#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2999#3286#0" expanded="true" />
+            <element signature="e#3285#3286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/src/main/java/com/jzheadley/CashPointer/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
